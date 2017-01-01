@@ -3,3 +3,7 @@ What happens when you initialize a repository? Why do you need to do it?
 How is the staging area different from the working directory and the repository ? What value do you think it offers?
     Staging area allows multiple files to be hosted so that they are committed together
     This way git log will show the commits being done together rather than having to keep track of individual files
+    
+How can you use the staging area to make sure you have one commit per logical change?
+    If multiple files are being modified as part of a logical change, then those files can be staged in the staging area before they are committed together
+
